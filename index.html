@@ -50,55 +50,84 @@
   </head>
 
   <body>
-    <!-- MAIN (Center website) -->
-<div class="main">
+    <h1>Subhadip Dutta</h1>
+    <h2>PORTFOLIO</h2>
 
-  <h1>Subhadip Dutta</h1>
-  <hr>
-  <div class="page__inner-wrap"><header><h2>ABOUT ME</h2></header><section class="page__content" itemprop="text"><p>I’m a Staff Consdultant for <a href="https://rasa.com/">Oracle</a>, where I’m helping customers by solutioning and building their business processes into Oracle’s vast cloud products. 💬</p><p>The best way to keep up with me is <a href="https://twitter.com/SUBHADIP_21">on Twitter</a>.</p><p>I have a PGD in Data Science from&nbsp;<a href="https://www.iiitb.ac.in/">International Institute of Information Technology Bangalore</a>.</p><p>Here’s my current streaming sechdule. You can tune in on <a href="https://www.twitch.tv/thestubbornone/">my Twitch</a>. You can find recordings of my past streams on <a href="https://www.youtube.com/channel/UC6m7b8JYsHZEswhRcqFA2pw">my personal YouTube Channel</a></p><ul><li>Monday-Friday @ 10am-7pm IST: Working at <a href="https://www.oracle.com/index.html">Oracle</a></li><li>Saturday @ 9am-3pm : Working on Master’s of Data Science Thesis</li></ul></section><footer class="page__meta"></footer></div>
-  
-  <!-- Portfolio Gallery Grid -->
-  <div class="row">
-    <div class="column">
-      <div class="content">
-        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-        <h3>CX Consultant</h3>
-        <p>Customer experience (CX) is how customer perceive your brand. ... CX consultants identify bad and good experiences, report them and design CX improvements.</p>
-      </div>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+      <button class="btn" onclick="filterSelection('people')"> People</button>
     </div>
-    <div class="column">
-      <div class="content">
-      <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-        <h3>Data Scientist</h3>
-        <p>Data scientists use a variety of skills depending on the industry they work in and their job responsibilities. Most data scientists are familiar with programming languages such as R and Python.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-      <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-        <h3>Game Developer</h3>
-        <p>A game developer can range from one person who undertakes all tasks to a large business with employee responsibilities split between individual disciplines.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
+    <!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
       <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-        <h3>Android Developer</h3>
-        <p>Android Developer offers Android app development services in India and across the globe. Our Android app developers are expert in developing highly.</p>
-      </div>
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
     </div>
-  <!-- END GRID -->
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
   </div>
   
-  <div class="content">
-    <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
-    <h3>Some Other Work</h3>
-    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
   </div>
-  
-  <!-- END MAIN -->
+  <div class="column cars">
+    <div class="content">
+    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
   </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
     <div class="container">
       <!-- Modal for rendering the charts, declare this if you want to render charts, 
          else you remove the modal -->
@@ -110,7 +139,7 @@
       <div class="widget">
         <div class="chat_header">
           <!--Add the name of the bot here -->
-          <span class="chat_header_title">Sara</span>
+          <span class="chat_header_title">Elena</span>
           <span class="dropdown-trigger" href="#" data-target="dropdown1">
             <i class="material-icons"> more_vert </i>
           </span>
